@@ -19,7 +19,7 @@
 
 ## Model Architecture
 
-<img src="model_plot.png width="800" height="400""></img>
+<img src="model_plot.png" width="800" height="400"></img>
 
 ## What is encoder in such models?
 The neural networks that changes any input in its features representation i.e vector of numbers is encoder. For example, we want to use image to predict words. As image directly can't tell what should be the word, we want to use its feature to help us decide the next word. And thus the network of layers used to change image or any other type of input in its feature representation is known as encoders.
