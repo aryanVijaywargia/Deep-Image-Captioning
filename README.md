@@ -50,7 +50,7 @@ The combination of layers/neural network that takes feature representation provi
 
 ### 7. Building the LSTM model
 
-<img src="LSTM.png" alt="drawing" width="200"/>
+<img src="LSTM.png" alt="drawing" width="200" height="500/>
 
 
 * LSTM model is been used beacuse it takes into consideration the state of the previous cell's output and the present cell's input for the current output. This is useful while generating the captions for the images.
