@@ -9,7 +9,7 @@
 
 **a. Cleaning the caption data**
 
-**b. Extracting features from images using VGG-16**
+**b. Extracting features from images using Xception model**
 
 **c. Merging the captions and images**
 
