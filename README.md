@@ -1,9 +1,13 @@
 # Image Caption Generator
- 
+
+* This is implementation of a image caption generator which given an image generates a caption based on tit. Image captioning is a challenging task where computer vision and natural language processing both play a part to generate captions. This technology can be used in many new fields like helping visually impaired, medical image analysis, geospatial image analysis etc.
+
 Given an image, generates a caption for it using two different neural networks; Convolutional Neural Network (CNN) and Long Short Term Memory Network (LSTM).
 
 It uses transfer learning using Xception model to leverage the model's trained parameters to encode an image to a 2048 feature vector which is then fed into an LSTM to predict a caption based on the features extracted by Xception.
 <br /><br />
+
+
 
 
 ## Flow of the project
@@ -14,9 +18,9 @@ It uses transfer learning using Xception model to leverage the model's trained p
 
 **c. Merging the captions and images**
 
-**d. Building LSTM model for training**
-**e  Predicting on test data**
-**f. Evaluating the captions using BLEU scores as the metric**
+##### d. Building LSTM model for training
+##### e  Predicting on test data
+##### f. Evaluating the captions using BLEU scores as the metric
 
 
 ## Model Architecture
