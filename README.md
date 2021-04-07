@@ -50,7 +50,8 @@ The combination of layers/neural network that takes feature representation provi
 
 ### 7. Building the LSTM model
 
-![](LSTM.png)
+<img src="LSTM.png" alt="drawing" width="200"/>
+
 
 * LSTM model is been used beacuse it takes into consideration the state of the previous cell's output and the present cell's input for the current output. This is useful while generating the captions for the images.
 * The step involves building the LSTM model with two or three input layers and one output layer where the captions are generated. The model can be trained with various number of nodes and layers. We start with 256 and try out with 512 and 1024. Various hyperparameters are used to tune the model to generate acceptable captions
