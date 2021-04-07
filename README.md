@@ -7,9 +7,13 @@ It uses transfer learning using Xception model to leverage the model's trained p
 
 
 ## Flow of the project
+
 **a. Cleaning the caption data**
+
 **b. Extracting features from images using VGG-16**
+
 **c. Merging the captions and images**
+
 **d. Building LSTM model for training**
 **e  Predicting on test data**
 **f. Evaluating the captions using BLEU scores as the metric**
