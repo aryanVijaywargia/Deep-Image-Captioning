@@ -49,15 +49,6 @@ This is the first step of data pre-processing. The captions contain regular expr
 * After dealing with the captions we then go ahead with processing the images. For this we make use of the pre-trained weights with Xception model.
 * Image is fed into this modified network to generate a 2048 length encoding corresponding to it.
 
-<br>
-
-### 4. Viewing similar images
-
-When the VGG-16 model finishes extracting features from all the images from the dataset, similar images from the clusters are displayed together to see if the VGG-16 model has extracted the features correctly and we are able to see them together.
-
-![](images/cluster1.PNG?raw=true)
-<br> </br>
-
 ### 5. Merging the caption with the respective images
 
 * The next step involves merging the captions with the respective images so that they can be used for training. Here we are only taking the first caption of each image from the dataset as it becomes complicated to train with all 5 of them. 
@@ -68,12 +59,12 @@ The tokenized captions along with the image data are split into training, test a
 
 ### 7. Building the LSTM model
 
-![](images/lstm.PNG?raw=true)
+![](LSTM.png)
 <br>
 LSTM model is been used beacuse it takes into consideration the state of the previous cell's output and the present cell's input for the current output. This is useful while generating the captions for the images.<br>
 The step involves building the LSTM model with two or three input layers and one output layer where the captions are generated. The model can be trained with various number of nodes and layers. We start with 256 and try out with 512 and 1024. Various hyperparameters are used to tune the model to generate acceptable captions
 
-![](images/lstmmodel.PNG?raw=true)
+![](lstm_model.png)
 <br>
 
 ### 8. Predicting on the test dataset and evaluating using BLEU scores
