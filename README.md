@@ -18,7 +18,7 @@
 
 ## Model Architecture
 
-<img src="model_plot.png" width="800" height="400"></img>
+<img src="test_images/model_plot.png" width="800" height="400"></img>
 
 ## What is encoder in such models?
 The neural networks that changes any input in its features representation i.e vector of numbers is encoder. For example, we want to use image to predict words. As image directly can't tell what should be the word, we want to use its feature to help us decide the next word. And thus the network of layers used to change image or any other type of input in its feature representation is known as encoders.
@@ -46,13 +46,13 @@ The combination of layers/neural network that takes feature representation provi
 
 ### 7. Building the LSTM model
 
-<img src="LSTM.png" alt="drawing" width="800" height="400"/>
+<img src="test_images/LSTM.png" alt="drawing" width="800" height="400"/>
 
 
 * LSTM model is been used beacuse it takes into consideration the state of the previous cell's output and the present cell's input for the current output. This is useful while generating the captions for the images.
 * The step involves building the LSTM model with two or three input layers and one output layer where the captions are generated. The model can be trained with various number of nodes and layers. We start with 256 and try out with 512 and 1024. Various hyperparameters are used to tune the model to generate acceptable captions
 
-<img src="lstm_model.png" alt="drawing" width="800" height="400"/>
+<img src="test_images/lstm_model.png" alt="drawing" width="800" height="400"/>
 
 ### 8. Predicting on the test dataset 
 * The trained model is then used to predict captions on the test image dataset. 
