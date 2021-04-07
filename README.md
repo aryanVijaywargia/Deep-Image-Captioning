@@ -17,8 +17,6 @@
 
 **e  Predicting on test data**
 
-**f. Evaluating the captions using BLEU scores as the metric**
-
 ## Model Architecture
 <br />
 
@@ -65,8 +63,8 @@ The combination of layers/neural network that takes feature representation provi
 <br />
 
 <div style="float:left">
-<div style="float:left"><img width="45%" src="https://i.imgur.com/Nmeg3DD.jpg" />
-<img width="45%" src="https://i.imgur.com/J4mnPsG.jpg" /></div>
+<div style="float:left"><img src="https://i.imgur.com/Nmeg3DD.jpg" width="400" height="400"/>
+<img src="https://i.imgur.com/J4mnPsG.jpg" width="400" height="400"/></div>
 </div>
 <br /><br />
 
