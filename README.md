@@ -18,9 +18,11 @@ It uses transfer learning using Xception model to leverage the model's trained p
 
 **c. Merging the captions and images**
 
-##### d. Building LSTM model for training
-##### e  Predicting on test data
-##### f. Evaluating the captions using BLEU scores as the metric
+**d. Building LSTM model for training**
+
+**e  Predicting on test data**
+
+**f. Evaluating the captions using BLEU scores as the metric**
 
 
 ## Model Architecture
